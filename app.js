@@ -27,7 +27,6 @@ function clickHandler() {
     .catch(errorHandler)
    };
 btnTranslate.addEventListener("click", clickHandler);
-
 // 1. document.querySelector("textarea")
 // 2. .btn-primary
 // 3. #input-btn
