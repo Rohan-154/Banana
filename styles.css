@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #FCD34D;
+}
+.navigation{
+    background-color: var(--primary-color);
+    padding: 5rem;
+}
+.nav-brand{
+    color: white;
+}
+.img{
+    background-image: url(minions.jpg);
+    height: 400px;
+    width: 100%;
+}
