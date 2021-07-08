@@ -5,48 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Speak</title>
-    <link href="/styles.css"
-    rel="stylesheet"/>
+    <link href="/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favi.png" type="image/x-icon">
     <style>
       textarea {
         width: 80%;
         height: 10vh;
-        display: block;
+        
         margin: 1rem;
-        padding: 1rem;
-       
+        padding: 3rem;
+        max-width: 1000px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2rem
       }
 
-      #output{
-        border: 1px solid black;
+      #output {
+        border: 1px solid rgb(37, 13, 13);
         height: 10vh;
         width: 80%;
         margin: 1rem;
-        padding: 1rem;
-
+        padding: 3rem;
+        display: block;
+        background: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        border-radius: 2rem
       }
     </style>
   </head>
-  <body> 
-
-    <img class="img">
-    <nav class="navigation ">
-      <div class="nav-brand">Welcome To The World Of Minions</div>
-      
-          
-        
-      </ul>
-    </nav> 
+  <body>
+    <header class="hero">
+      <h1 class="heading">Minion Translation</h1>
+    </header>
 
     <textarea
       id="txt-input"
-      placeholder="Type your english text and Translate it "></textarea>
+      placeholder="Type your english text and Translate it "
+    ></textarea>
     <button id="btn-translate">Translate</button>
-    <div> Output will be here 👇 </div>
+    <div> 👇</div>
 
-   <div id="output"></div>
+    <div id="output"></div>
 
-    <script src="app.js" type="text/javascript"></script> -->
-   
+    <script src="app.js" type="text/javascript"></script>
+    -->
+
+    <footer class="footer">
+      <div class="footer-header">Here is my Social Media Links To connect</div>
+      <ul class="social links list-non-bullet" > 
+        <li class="list-item-inline"> 
+          <a class="link" href= "https://github.com/Rohan-154">GITHUB</a>
+        </li>
+        <li class="list-item-inline"> <a class="link" href="https://twitter.com/Rohan_415?s=09"> Twitter</a>
+        </li>
+        <li class="list-item-inline"> <a class="link" href="https://www.linkedin.com/in/rohan-dubey-2854b9201" >Linkedin</a>
+          
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
