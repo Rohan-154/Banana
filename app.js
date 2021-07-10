@@ -4,13 +4,13 @@ var outputDiv = document.querySelector("#output");
 
 // var serverURL= "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json"
- function getTranslationURl(text) {
-  return (serverURL + "?" + "text=" + text)
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
+function getTranslationURl(text) {
+  return serverURL + "?" + "text=" + text;
 }
 function errorHandler(error) {
-   console.log("error occured", error);
-   alert("something wrong with server! try again after some time")
+  console.log("error occured", error);
+  alert("something wrong with server! try again after some time");
 }
 
 function clickHandler() {
@@ -24,8 +24,8 @@ function clickHandler() {
       outputDiv.innerText = translatedText;
     })
 
-    .catch(errorHandler)
-   };
+    .catch(errorHandler);
+}
 btnTranslate.addEventListener("click", clickHandler);
 // 1. document.querySelector("textarea")
 // 2. .btn-primary
