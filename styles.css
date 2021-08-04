@@ -60,6 +60,7 @@ body{
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     padding-right: 4rem;
+    padding-inline-start: 0rem;
 
 }
 .footer .link {
